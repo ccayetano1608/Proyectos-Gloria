@@ -1,0 +1,86 @@
+[
+  {
+    "id": "usr-admin",
+    "username": "admin",
+    "name": "Carlos Mendoza (Admin)",
+    "role": "admin",
+    "department": "Supervisión de Operaciones",
+    "password": "admin",
+    "permissions": {
+      "canCreate": true,
+      "canEditOwn": true,
+      "canEditAll": true,
+      "canDelete": true,
+      "canDispatch": true,
+      "canExportExcel": true,
+      "canImportExcel": true,
+      "canManageUsers": true,
+      "canViewAudit": true
+    },
+    "createdAt": "2026-09-17T16:43:53.227Z",
+    "lastLogin": "2026-09-17T16:43:53.227Z"
+  },
+  {
+    "id": "usr-solicitante-1",
+    "username": "solicitante",
+    "name": "Lucía Torres (Solicitante)",
+    "role": "solicitante",
+    "department": "Línea de Ensamble A",
+    "password": "123",
+    "permissions": {
+      "canCreate": true,
+      "canEditOwn": true,
+      "canEditAll": false,
+      "canDelete": false,
+      "canDispatch": false,
+      "canExportExcel": true,
+      "canImportExcel": false,
+      "canManageUsers": false,
+      "canViewAudit": false
+    },
+    "createdAt": "2026-09-17T16:43:53.227Z",
+    "lastLogin": "2026-09-17T16:56:26.648Z"
+  },
+  {
+    "id": "usr-despachador-1",
+    "username": "despachador",
+    "name": "Martín Paredes (Despachador)",
+    "role": "despachador",
+    "department": "Almacén Central y Despacho",
+    "password": "123",
+    "permissions": {
+      "canCreate": false,
+      "canEditOwn": false,
+      "canEditAll": false,
+      "canDelete": false,
+      "canDispatch": true,
+      "canExportExcel": true,
+      "canImportExcel": false,
+      "canManageUsers": false,
+      "canViewAudit": true
+    },
+    "createdAt": "2026-09-17T16:43:53.227Z",
+    "lastLogin": "2026-09-17T16:52:31.010Z"
+  },
+  {
+    "id": "usr-1789664189690",
+    "username": "carlos_ops",
+    "name": "Carlos Operario",
+    "role": "solicitante",
+    "department": "Mantenimiento",
+    "password": "mypassword",
+    "permissions": {
+      "canCreate": true,
+      "canEditOwn": true,
+      "canEditAll": false,
+      "canDelete": false,
+      "canDispatch": false,
+      "canExportExcel": true,
+      "canImportExcel": false,
+      "canManageUsers": false,
+      "canViewAudit": false
+    },
+    "createdAt": "2026-09-17T16:56:29.690Z",
+    "lastLogin": "2026-09-17T16:56:31.797Z"
+  }
+]
